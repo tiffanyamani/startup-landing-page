@@ -15,33 +15,56 @@ body {
   background-size: cover;
 }
 
+.head-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.header-text {
+  display: block;
+  top: -2.5rem;
+  margin-bottom: 9rem;
+}
+
 h1 {
-  color: #e5e7ea;
+  color: #C8C5CC;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 hr {
-  border-color: #f05f44;
+  border-color: #8C6F8C;
   border-width: 2px;
   max-width: 65px;
-}
-
-.buffer {
-  height: 7rem;
+  margin-top: -4rem;
 }
 
 .btn {
   font-weight: 600;
-  font-size: .75rem;
-  letter-spacing: .01rem;
+  font-size: 1rem;
+  letter-spacing: .03rem;
   border-radius: 300px;
   text-transform: uppercase;
+  color: #C8C5CC;
+  box-shadow: none;
 }
 
-.btn-danger {
-  background-color: #f05f44;
-  border: 1px solid #f05f44;
+.btn-mailchimp,
+.btn-mailchimp:link,
+.btn-mailchimp:visited {
+  background-color: #8C6F8C;
+  border: 1px solid #8C6F8C;
+  box-shadow: none;
+}
+
+.btn-mailchimp:hover,
+.btn-mailchimp:active {
+  background-color: #8C6F8C;
+  border: 2px solid #8C6F8C;
+  box-shadow: none;
+  color: #C8C5CC;
 }
 
 .btn-xl {
